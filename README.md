@@ -34,3 +34,7 @@ You should see logger sending syslog UDP messages to 127.0.0.1:514
 
 ## License
 MIT license
+
+## Source
+This version was forked from https://github.com/facebookarchive/liblogfaf
+Changes found at https://github.com/jkroepke/liblogfaf
