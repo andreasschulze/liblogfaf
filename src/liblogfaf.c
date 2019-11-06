@@ -65,7 +65,7 @@ __attribute__((constructor)) static void _liblogfaf_init(void) {
     DBG(("liblogfaf: init()\n"));
     init_progname(&shared_data);
     set_defaults(&shared_data);
-    target = getenf("LIBLOGFAF_SENDTO");
+    target = getenv("LIBLOGFAF_SENDTO");
     DBG(("liblogfaf: LIBLOGFAF_SENDTO: %s\n", getenv("LIBLOGFAF_SENDTO")));
 }
 
